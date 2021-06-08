@@ -59,18 +59,21 @@ main {
 main .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 main .card {
-  width: calc(100% / 6 - 20px);
+  padding: 10px;
+  min-width: 140px;
+  width: 180px;
   margin: 20px 0;
   height: 220px;
 }
 
 main .card img {
   width: 100%;
+  margin-bottom: 10px;
 }
 
 main .card p {
