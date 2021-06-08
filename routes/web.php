@@ -126,3 +126,11 @@ Route::get('/', function () {
     ];
     return view('home', ['comics' => $comics]);
 })->name('home');
+
+Route::get('/comics', function () {
+    return view('comics');
+})->name('comics');
+
+Route::get('/news', function () {
+    return view('news');
+})->name('news');
