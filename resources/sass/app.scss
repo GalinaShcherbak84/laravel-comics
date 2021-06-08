@@ -3,3 +3,24 @@
 @import 'partials/defaults';
 @import 'partials/utilities';
 
+header{
+    background: $white-col;
+    height: 80px;
+    .container{
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    img{
+        width: 60px;
+        margin-right: 30px;
+    }
+    a{
+        color:$back-col;
+        text-decoration: none;
+        margin-right: 20px;
+        font-weight: bold;
+    }
+}
+
