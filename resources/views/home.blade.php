@@ -14,7 +14,14 @@
     <body>
         @include('partials.header')
         <main>
-            main here
+           <div class="container">
+            @foreach ($comics as $card)
+            <div class="card">
+                <img src="{{ $card['image'] }}" alt="">
+                <p>{{ $card['title'] }}</p>
+            </div>
+            @endforeach
+           </div>
         </main>
         @include('partials.footer')
         {{--js--}}

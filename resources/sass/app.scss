@@ -24,3 +24,27 @@ header{
     }
 }
 
+main{
+    padding:50px 0;
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+       
+    }
+    .card{
+        width: calc(100% / 6 - 20px);
+        margin:20px 0;
+        height: 220px;
+        
+        img{
+            width: 100%;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+}
+
